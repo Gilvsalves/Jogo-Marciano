@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Marciano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="">
+    <header>
+        <h1>Jogo Marciano</h1>
+    </header>
+    <section>
+        <div >
+            <p id="instrucoes"></p>
+            Árvore: <input type="text" id="narvore">
+            <br><input type="button" value="Enviar" id="enviares" onclick="jogada()">
+            <input type="button" value="Nova Partida" onclick="novaPartida()">
+
+            <h2 id="res1"></h2>
+            <h2 id="res2"></h2>
+            <h2 id="res3"></h2>
+            
+        </div>
+        <div id="valor"></div>
+    </section>
+    <footer>
+        <p>&copy; GILVSALVES</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
